@@ -1,0 +1,257 @@
+/* Start Global Ruls */
+:root {
+  --first-main-color: rgba(25, 200, 250, 1);
+  --second-main-color: rgb(220, 220, 220);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* End Global Ruls */
+/* Start Heading */
+.continer {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main-continer {
+  width: 100%;
+  height: calc(100vh - 200px);
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-continer .continer {
+  height: 80px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-continer .continer a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.main-continer .continer ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.head-landing-page {
+  height: calc(100% - 80px);
+}
+
+.head-londing {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.divOne {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 30px 1fr;
+  height: 200px;
+  background-color: rgba(25, 200, 250, 0.4);
+}
+
+.divTwo {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 30px;
+}
+
+.divOne button {
+  grid-column: 1/2;
+}
+
+.divTwo button {
+  grid-column: 2/3;
+}
+
+.head-londing button {
+  grid-row: 1/3;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.divOne div {
+  padding: 20px 10px 10px 180px;
+}
+
+.divOne div h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: white;
+}
+
+.divOne div p {
+  margin-top: 25px;
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.serveces-head {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serveces-head h2 {
+  width: 150px;
+  text-align: center;
+  height: 40px;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 1px solid darkgray;
+  position: relative;
+}
+
+.serveces-head h2:before {
+  content: " ";
+  position: absolute;
+  bottom: -4px;
+  left: 71px;
+  width: 8px;
+  height: 8px;
+  background: darkgray;
+  border-radius: 8px;
+}
+
+.serveces-head p {
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.grid-four {
+  width: 100%;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 70px 20px;
+  padding: 50px 0;
+}
+
+.grid-row-column {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  row-gap: 10px;
+  font-weight: 300;
+}
+
+.grid-row-column .fa-solid {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  font-size: 32px;
+  color: var(--second-main-color);
+}
+
+.grid-row-column h4 {
+  font-weight: 400;
+  color: var(--first-main-color);
+}
+
+.grid-row-column p {
+  font-size: 15px;
+}
+
+.last-serv-part {
+  width: 100%;
+  height: 400px;
+  background: url(../images/design-features.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.last-serv-part .continer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-serv-part .continer div {
+  width: 45%;
+  color: #fff;
+}
+
+.last-serv-part .continer img {
+  width: 70%;
+  height: 70%;
+  margin-top: 120px;
+}
+.last-serv-part .continer div:last-child {
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+  padding-left: 30px;
+  
+}
+.last-serv-part .continer div:last-child h3 {
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.last-serv-part .continer div:last-child li{
+  padding-top: 10px;
+  font-weight: 400;
+}
+.last-serv-part .continer div:last-child li:before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f108";
+  position: relative;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
